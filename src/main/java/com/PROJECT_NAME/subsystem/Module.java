@@ -10,14 +10,19 @@
 // You should have received a copy of the CC0 Public Domain Dedication along with this software.
 // If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
 
-package PROJECT_NAME.subsystem;
+package com.PROJECT_NAME.subsystem;
 
-import org.junit.*;
-import static org.junit.Assert.*;
-
-public class ModuleTest {
-    @Test
-    public void testIdentity() {
-        assertEquals(Module.identity(1), 1);
+/**
+ * A class holding only static methods.
+ */
+public class Module {
+    /**
+     * Returns the given integer.
+     *
+     * @param x the integer to return
+     * @return the given integer
+     */
+    public static int identity(int x) {
+        return x;
     }
 }
