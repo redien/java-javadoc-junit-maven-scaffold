@@ -12,7 +12,16 @@
 
 package PROJECT_NAME.subsystem;
 
-class Module {
+/**
+ * A class holding only static methods.
+ */
+public class Module {
+    /**
+     * Returns the given integer.
+     *
+     * @param x the integer to return
+     * @return the given integer
+     */
     public static int identity(int x) {
         return x;
     }

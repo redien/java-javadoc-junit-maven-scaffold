@@ -6,7 +6,10 @@ PROJECT_NAME - PROJECT_SHORT_DESCRIPTION
 ## How to use
 
 First make sure Maven is installed.
+
 Then run unit tests using `mvn test`.
+
+Generate javadoc documentation using `mvn javadoc:javadoc`.
 
 ## Copying
 
