@@ -51,6 +51,6 @@ os.rename("./src/main/java/PROJECT_TLD/PROJECT_DOMAIN/PROJECT_NAME", "./src/main
 os.rename("./src/main/java/PROJECT_TLD/PROJECT_DOMAIN", "./src/main/java/PROJECT_TLD/" .. PROJECT_DOMAIN)
 os.rename("./src/main/java/PROJECT_TLD", "./src/main/java/" .. PROJECT_TLD)
 
-os.rename("./src/test/java/PROJECT_TLD/PROJECT_DOMAIN/PROJECT_NAME", "./src/main/java/PROJECT_TLD/PROJECT_DOMAIN/" .. PROJECT_NAME)
-os.rename("./src/test/java/PROJECT_TLD/PROJECT_DOMAIN", "./src/main/java/PROJECT_TLD/" .. PROJECT_DOMAIN)
-os.rename("./src/test/java/PROJECT_TLD", "./src/main/java/" .. PROJECT_TLD)
+os.rename("./src/test/java/PROJECT_TLD/PROJECT_DOMAIN/PROJECT_NAME", "./src/test/java/PROJECT_TLD/PROJECT_DOMAIN/" .. PROJECT_NAME)
+os.rename("./src/test/java/PROJECT_TLD/PROJECT_DOMAIN", "./src/test/java/PROJECT_TLD/" .. PROJECT_DOMAIN)
+os.rename("./src/test/java/PROJECT_TLD", "./src/test/java/" .. PROJECT_TLD)
