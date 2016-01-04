@@ -2,7 +2,12 @@
 
 function replaceVariableInFile(pattern, substitution, filepath)
     local file = io.open(filepath)
-    local contents = file:read("*a")
+    local contents
+    if _VERSION == "Lua 5.3" then
+        contents = file:read("a")
+    else
+        contents = file:read("*a")
+    end
     file:close()
 
     contents = contents:gsub(pattern, substitution)
